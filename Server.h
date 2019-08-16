@@ -33,7 +33,7 @@ private:
     //broadcast message
     int SendBroadcastMessage(int clientfd);
     //server address
-    struct  sockaddr_in_serverAddr;
+    struct  sockaddr_in serverAddr;
 
     //create new socket
     int listener;
